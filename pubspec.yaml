@@ -1,10 +1,15 @@
 name: color
 version: 2.0.2
 description: A simple Dart package exposing a Color class which can be used to create, convert, alter, and compare colors.
+
+environment:
+  sdk: '>=2.0.0 <3.0.0'
+
 authors:
 - Michael Fenwick <mike@mikefenwick.com>
 - Tim Kluge <timklge@wh2.tu-dresden.de>
 homepage: http://github.com/MichaelFenwick/Color
+
 dev_dependencies:
   browser: any
   test: any
